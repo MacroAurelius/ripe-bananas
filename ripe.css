@@ -14,12 +14,11 @@ body {
     padding-right: 100px;
 }
 
-header{
+/* header{
     display: flex;
-    /* height: 85px; */
     padding: 20px;
     justify-content: space-between;
-}
+} */
 
 footer{
     display: flex;
@@ -33,12 +32,13 @@ footer a{
     display: flex;
     color: rgb(188, 241, 82);
     padding: 10px;
+    margin-top: 0;
     margin-bottom: 50px;
 }
 
 nav{
     display: flex;
-    transform: translateY(31px);
+    /* transform: translateY(31px); */
 }
 
 
@@ -114,8 +114,11 @@ img {
 
 .title-logo{
     display: flex;
-    justify-content: end;
+    margin: 0;
+    justify-content: flex-end;
+    transform: translateY(-70px);
+
     /* justify-content: space-between; */
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 
 }
