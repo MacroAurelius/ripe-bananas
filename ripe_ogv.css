@@ -1,0 +1,125 @@
+/* *{
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 10px;
+} */
+body {
+    display: block;
+    margin: 0;
+    align-items: center;
+    background-color: rgb(0, 0, 24);
+    /* overflow-x: hidden; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: rgb(228, 0, 179);
+}
+
+.title{
+    display: flex;
+    color: rgb(188, 241, 82);
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+nav{
+    display: inline-flex;
+    transform: translateY(45px);
+}
+
+
+.nav-tabs a{
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center; */
+    text-decoration: none;
+    color: blanchedalmond;
+    border: 2px solid rgb(43, 255, 0);
+    border-radius: 10px 100px / 120px;
+    padding: 5px;
+    margin: 3px;
+    
+}
+
+.nav-tabs a:hover {
+    border-color: yellow;
+    border-radius: 10px;
+}
+
+.poster-container {
+    display: flex;
+    /* position: relative; */
+    margin-bottom: 50px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+.poster-container img{
+    padding: 5px;
+}
+
+/* .poster{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    overflow-y: hidden;
+    height: 50vw;
+    max-height: 100vh;
+    margin: 20px;
+} 
+*/
+
+/* 
+img {
+    min-width: 100%;
+    width: 100%;
+} */
+
+.streaming-services{
+    display: -webkit-inline-box;
+    text-align: left;
+    justify-content: flex-start;
+    color: aliceblue;
+    float: left;
+    width: 10%;
+
+}
+
+.streaming-services a{
+    display: flex;
+    color: aqua;
+    padding: 19.5px;
+}
+
+#logo{
+    display: flex;
+    height: 50px;
+    width: 49px;
+    transform: translateY(20px) translateX(3px);
+}
+
+.title-logo{
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    transform: translateY(-10px);
+
+    /* justify-content: space-between; */
+    /* padding-bottom: 50px; */
+
+}
